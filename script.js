@@ -57,7 +57,7 @@ async function individualBooks() {
       <p>ISBN:${result1.isbn}</p>
       <p>No. of Pages:${result1.numberOfPages}</p>
       <p>Publisher:${result1.publisher}</p>
-      <p> Release Date:${result1.released.slice(0, 10)}</p>
+      <p> Released Date:${result1.released.slice(0, 10)}</p>
       <p>Characters :<a href="${result1.characters.slice(
         0,
         1
@@ -112,7 +112,7 @@ async function allBooks() {
         <p>ISBN:${result[i].isbn}</p>
         <p>No. of Pages:${result[i].numberOfPages}</p>
         <p>Publisher:${result[i].publisher}</p>
-        <p> Release Date:${result[i].released.slice(0, 10)}</p>
+        <p> Released Date:${result[i].released.slice(0, 10)}</p>
         <p>Characters :<a href="${result[i].characters.slice(
           0,
           1
