@@ -11,7 +11,7 @@ form.setAttribute("class", "form-inline ml-auto");
 //input element
 let input = document.createElement("input");
 input.setAttribute("type", "search");
-input.setAttribute("placeholder", "enter no 1 to 12");
+input.setAttribute("placeholder", "Enter No from 1 to 12");
 input.setAttribute("id", "books");
 //button element
 let button = document.createElement("button");
@@ -53,7 +53,7 @@ async function individualBooks() {
     result1.name
   }</h5></div>
 <div class="card-body "style="background-color:#16f2a5; ">
-      <p><h6>Author Name:${result1.authors}</h6></p>
+      <h5>Author Name:${result1.authors}</h5>
       <p>ISBN:${result1.isbn}</p>
       <p>No. of Pages:${result1.numberOfPages}</p>
       <p>Publisher:${result1.publisher}</p>
