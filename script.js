@@ -53,7 +53,7 @@ async function individualBooks() {
     result1.name
   }</h5></div>
 <div class="card-body "style="background-color:#16f2a5; ">
-      <p><h6>Authors:${result1.authors}</h6></p>
+      <p><h6>Author Name:${result1.authors}</h6></p>
       <p>ISBN:${result1.isbn}</p>
       <p>No. of Pages:${result1.numberOfPages}</p>
       <p>Publisher:${result1.publisher}</p>
@@ -108,7 +108,7 @@ async function allBooks() {
       result[i].name
     }</h5></div>
 <div class="card-body  "style="background-color:#d7e632;  ">
-        <p><h6>Authors:${result[i].authors}</h6></p>
+        <h5>Author Name:${result[i].authors}</h5>
         <p>ISBN:${result[i].isbn}</p>
         <p>No. of Pages:${result[i].numberOfPages}</p>
         <p>Publisher:${result[i].publisher}</p>
