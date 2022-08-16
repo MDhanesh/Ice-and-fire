@@ -47,7 +47,7 @@ async function individualBooks() {
     let result1 = await result.json();
     //console.log(result1);
 
-    a.innerHTML += `<div class="text-center mx-auto py-2" style="width:24rem ">
+    a.innerHTML = `<div class="text-center mx-auto py-2" style="width:24rem ">
   <div class="card " >
   <div id="test1" ><h5 class="card-header "style="background-color:#f2d116; " >Book Name:${
     result1.name
@@ -77,7 +77,7 @@ async function individualBooks() {
   </div>
 </div> `;
   } catch (error) {
-    a.innerHTML += `<div class="card mx-auto " style="width: 22rem;">
+    a.innerHTML = `<div class="card mx-auto " style="width: 22rem;">
 <img class="card-img-top" src="sorry.jpg" alt="Card image cap">
 <div class="card-body">
 <p class="card-text text-center">No More Books to <br><b >FETCH</b><br>Please Refresh the Page</p>
